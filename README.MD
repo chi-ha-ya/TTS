@@ -1,36 +1,36 @@
 # edge-tts使用示例
 
-edge-tts是一个方便好用的文字转语音pyhton库，由微软开源，支持多国语言。这是一个简易示例项目，安装edge-tts后，双击"TextToSpeech.bat"即可将"IN.txt"内文本转为语音输出到"OUT.mp3",针对vscode配置了tasks脚本，打开工程后可Ctrl+Shift+B一键执行。
+edge-tts是一个方便好用的文字转语音pyhton库，由微软开源，支持多国语言，可直接使用pip安装。这是一个简易示例项目，安装edge-tts后，双击"TextToSpeech.bat"即可将"IN.txt"内文本转为语音输出到"OUT.mp3",针对vscode配置了tasks脚本，打开工程后可Ctrl+Shift+B一键执行。
 
 安装命令：
 
 ```powershell
-$ pip install edge-tts
+  pip install edge-tts
 ```
 
 帮助文档：
 
 ```powershell
-$ edge-tts --help
+  edge-tts --help
 ```
 
 示例：
 
 ```jsx
-$ edge-tts -f "IN.txt" --write-media "OUT.mp3" --voice zh-CN-YunxiNeural
+  edge-tts -f "IN.txt" --write-media "OUT.mp3" --voice zh-CN-YunxiNeural
 
 ```
 
-或者也可以替换音色为ja-JP-NanamiNeural，变成:
+其中"--voice"命令指定音色，也可以替换音色为"ja-JP-NanamiNeural"，变成:
 
 ```powershell
-$ edge-tts -f "IN.txt" --write-media "OUT.mp3" --voice ja-JP-NanamiNeural
+  edge-tts -f "IN.txt" --write-media "OUT.mp3" --voice ja-JP-NanamiNeural
 ```
 
-用list-voices列出所有支持的音色:
+列出所有支持的音色:
 
 ```powershell
-$ edge-tts --list-voices
+  edge-tts --list-voices
 ```
 
 ```markdown
