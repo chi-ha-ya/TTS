@@ -1,0 +1,7 @@
+{
+    "label": "TTS",
+    "type": "shell",
+    "command": "${workspaceFolder}/TextToSpeech.bat",
+    "presentation": {"echo": true, "reveal": "always", "focus": false, "panel": "shared", "showReuseMessage": false, "clear": true},
+    "group": {"kind": "build", "isDefault": true},
+}
