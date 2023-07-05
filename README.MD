@@ -1,6 +1,6 @@
 # edge-tts使用示例
 
-edge-tts是一个方便好用的文字转语音pyhton库，由微软开源，支持多国语言，可直接使用pip安装。这是一个简易示例项目，首次使用会自动构建一个虚拟环境并在其中安装edge-tts，安装edge-tts后，双击"TextToSpeech.bat"即可将"IN.txt"内文本转为语音输出到"OUT.mp3",针对vscode配置了tasks脚本，打开工程后可Ctrl+Shift+B一键执行。
+edge-tts是一个方便好用的文字转语音pyhton库，由微软开源，支持多国语言，可直接使用pip安装。这是一个简易示例项目，双击"TextToSpeech.bat"即可将"IN.txt"内文本转为语音输出到"OUT.mp3"（首次使用会自动构建一个虚拟环境并在其中安装edge-tts，可能需要几分钟）,针对vscode配置了tasks脚本，打开工程后可Ctrl+Shift+B一键执行。
 
 安装命令：
 
