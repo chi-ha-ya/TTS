@@ -17,4 +17,4 @@ goto :run
 
 :run
 echo "Run TTS"
-python .venv\Scripts\edge-tts.exe -f "./IN.txt" --write-media "./OUT.mp3" --voice ja-JP-NanamiNeural
+edge-tts -f "./IN.txt" --write-media "./OUT.mp3" --voice ja-JP-NanamiNeural
