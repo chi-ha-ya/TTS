@@ -17,4 +17,4 @@ goto :run
 
 :run
 echo "Run TTS_CN"
-edge-tts -f "./IN.txt" --write-media "./OUT.mp3" --voice zh-CN-YunxiNeural
+edge-tts -f "./IN.txt" --write-media "./OUT.mp3" --write-subtitles "./OUT.srt" --voice zh-CN-YunxiNeural

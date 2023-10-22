@@ -17,4 +17,4 @@ goto :run
 
 :run
 echo "Run TTS_JA"
-edge-tts -f "./IN.txt" --write-media "./OUT.mp3" --voice ja-JP-NanamiNeural
+edge-tts -f "./IN.txt" --write-media "./OUT.mp3" --write-subtitles "./OUT.srt" --voice ja-JP-NanamiNeural

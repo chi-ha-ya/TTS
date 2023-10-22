@@ -17,4 +17,4 @@ goto :run
 
 :run
 echo "Run TTS_EN"
-edge-tts -f "./IN.txt" --write-media "./OUT.mp3" --voice en-US-JennyNeural
+edge-tts -f "./IN.txt" --write-media "./OUT.mp3" --write-subtitles "./OUT.srt" --voice en-US-JennyNeural
